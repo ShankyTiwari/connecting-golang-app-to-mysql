@@ -8,6 +8,14 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// User is Interface for user details.
+type User struct {
+	ID      int
+	Name    string
+	Lname   string
+	Country string
+}
+
 func renderHome(response http.ResponseWriter, request *http.Request) {
 	http.ServeFile(response, request, "views/index.html")
 }
