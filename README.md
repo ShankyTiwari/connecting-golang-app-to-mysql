@@ -18,3 +18,7 @@ Below command will start the GO server.
 go run *.go
 ```
 
+## Source code explanation
+
+Check out [Golang and Mysql connection tutorial
+](http://www.codershood.info/2018/08/19/golang-and-mysql-connection-tutorial/) blog post, for source explanation.
